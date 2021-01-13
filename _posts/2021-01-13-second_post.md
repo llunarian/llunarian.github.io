@@ -2,7 +2,6 @@
 
 layout: single
 title: 2020년 회고록
-comments: true
 
 ---
 
