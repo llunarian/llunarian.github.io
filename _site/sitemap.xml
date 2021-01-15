@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://llunarian.github.io/diary/2020%ED%9A%8C%EA%B3%A0%EB%A1%9D/</loc>
+<loc>https://llunarian.github.io/diary/diary-2020%ED%9A%8C%EA%B3%A0%EB%A1%9D/</loc>
 <lastmod>2021-01-13T00:00:00+09:00</lastmod>
 </url>
 <url>
@@ -17,7 +17,7 @@
 <lastmod>2021-01-15T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>https://llunarian.github.io/_posts/2021-01-13-2020%ED%9A%8C%EA%B3%A0%EB%A1%9D/</loc>
+<loc>https://llunarian.github.io/_posts/2021-01-13-diary-2020%ED%9A%8C%EA%B3%A0%EB%A1%9D/</loc>
 </url>
 <url>
 <loc>https://llunarian.github.io/_posts/2021-01-15-SRE-1.%EC%8B%9C%EC%9E%91%ED%95%98%EB%A9%B0/</loc>
@@ -27,6 +27,9 @@
 </url>
 <url>
 <loc>https://llunarian.github.io/_posts/2021-01-15-SRE-3.%EC%9C%84%ED%97%98%EC%9A%94%EC%86%8C%EC%88%98%EC%9A%A9%ED%95%98%EA%B8%B0/</loc>
+</url>
+<url>
+<loc>https://llunarian.github.io/2021-01-15-t-2020%ED%9A%8C%EA%B3%A0%EB%A1%9D/</loc>
 </url>
 <url>
 <loc>https://llunarian.github.io/</loc>

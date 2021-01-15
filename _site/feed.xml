@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://llunarian.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://llunarian.github.io/" rel="alternate" type="text/html" /><updated>2021-01-15T15:02:31+09:00</updated><id>https://llunarian.github.io/feed.xml</id><title type="html">null_type</title><subtitle>Junior devops's blog</subtitle><author><name>null_type</name></author><entry><title type="html">1.시작하며</title><link href="https://llunarian.github.io/site%20reliability%20engineering/SRE-1.%EC%8B%9C%EC%9E%91%ED%95%98%EB%A9%B0/" rel="alternate" type="text/html" title="1.시작하며" /><published>2021-01-15T00:00:00+09:00</published><updated>2021-01-15T00:00:00+09:00</updated><id>https://llunarian.github.io/site%20reliability%20engineering/SRE-1.%EC%8B%9C%EC%9E%91%ED%95%98%EB%A9%B0</id><content type="html" xml:base="https://llunarian.github.io/site%20reliability%20engineering/SRE-1.%EC%8B%9C%EC%9E%91%ED%95%98%EB%A9%B0/">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://llunarian.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://llunarian.github.io/" rel="alternate" type="text/html" /><updated>2021-01-15T15:43:22+09:00</updated><id>https://llunarian.github.io/feed.xml</id><title type="html">null_type</title><subtitle>Junior devops's blog</subtitle><author><name>null_type</name></author><entry><title type="html">1.시작하며</title><link href="https://llunarian.github.io/site%20reliability%20engineering/SRE-1.%EC%8B%9C%EC%9E%91%ED%95%98%EB%A9%B0/" rel="alternate" type="text/html" title="1.시작하며" /><published>2021-01-15T00:00:00+09:00</published><updated>2021-01-15T00:00:00+09:00</updated><id>https://llunarian.github.io/site%20reliability%20engineering/SRE-1.%EC%8B%9C%EC%9E%91%ED%95%98%EB%A9%B0</id><content type="html" xml:base="https://llunarian.github.io/site%20reliability%20engineering/SRE-1.%EC%8B%9C%EC%9E%91%ED%95%98%EB%A9%B0/">&lt;blockquote&gt;
   &lt;p&gt;📌 이 시리즈는 ⟪사이트 신뢰성 엔지니어링⟫(벳시 베이어, 크리스 존스, 제니퍼 펫오프, 니얼 리처드 머피 지음, 제이펍, ISBN 979-11-88621-08-8) 의 내용을 개인적으로 학습하고 정리하기 위해 쓰여졌습니다. 따라서 해당 글을 인용 및 재배포하는 것에 대한 주의를 부탁드립니다.🚨&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -60,14 +60,8 @@
   &lt;p&gt;SRE에 대해 더 알고싶으시다면 &lt;a href=&quot;https://sre.google/&quot;&gt;여기&lt;/a&gt; 를 참고하세요!&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-&lt;div align=&quot;center&quot;&gt;
-  &lt;div&gt;
-    &lt;p&gt;&lt;img src=&quot;/assets/images/ben_treynor_sloss.png&quot; alt=&quot;&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
-    &lt;figcaption&gt;구글 기술 운영 감독 부사장이자 SRE라는 용어를 만든 Ben Treynor Sloss. 구글링해보면 슈퍼카 수집이 취미이신듯... ㄷㄷ&lt;/figcaption&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/ben_treynor_sloss.png&quot; alt=&quot;&quot; width=&quot;400&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+&lt;figcaption class=&quot;text-center&quot;&gt;구글 기술 운영 감독 부사장이자 SRE라는 용어를 만든 Ben Treynor Sloss. 구글링해보면 슈퍼카 수집이 취미이신듯... ㄷㄷ&lt;/figcaption&gt;
 
 &lt;p&gt;&lt;br /&gt;
 1장은 벤 부사장이 SRE의 의미와 업무 방식에 대한 자신의 생각을 소개하는 글이다. 이글을 통해서 SRE가 무엇을 하는지, 어떤 ??을 중요하게 생각하는지 정확히 파악할 수 있다.&lt;/p&gt;
@@ -77,12 +71,8 @@
 
 &lt;h3 id=&quot;일반적인-시스템-관리자의-역할&quot;&gt;일반적인 시스템 관리자의 역할&lt;/h3&gt;
 
-&lt;div align=&quot;center&quot;&gt;
-  &lt;div&gt;
-    &lt;p&gt;&lt;img src=&quot;/assets/images/dev_vs_ops.png&quot; alt=&quot;&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
-    &lt;figcaption&gt;너어는 진짜 나쁜 아이구나&lt;/figcaption&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/dev_vs_ops.png&quot; alt=&quot;&quot; width=&quot;400&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+&lt;figcaption class=&quot;text-center&quot;&gt;너어는 진짜 나쁜 아이구나&lt;/figcaption&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -111,24 +101,16 @@ SRE 채용에 대한 구글의 접근법의 결과로 구글은 크게 두 부�
 이러한 장점과 더불어 SRE 모델은 독특한 도전과제가 즐비하다는 특징도 있다. 구글이 지속적으로 당면한 도전과제 중 하나는 SRE의 채용이다. SRE 후보자가 제품 개발자 채용 과정을 통해 다른 엔지니어들과 경쟁해야 한다는 점과 더불어 SRE에 대한 채용 기준이 코딩 및 시스템 엔지니어링 기술 전반에 걸쳐 너무 높게 형성되어 있었다. 하지만 그에 상응하는 인력 수가 많지 않다는 것이 문제였다.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;div align=&quot;center&quot;&gt;
-  &lt;div&gt;
-    &lt;p&gt;&lt;img src=&quot;/assets/images/mountain.png&quot; alt=&quot;&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
-    &lt;figcaption&gt;개발과 시스템 운영을 동시에...! 산 넘어 산이다.&lt;/figcaption&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/mountain.png&quot; alt=&quot;&quot; width=&quot;400&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+&lt;figcaption class=&quot;text-center&quot;&gt;개발과 시스템 운영을 동시에...! 산 넘어 산이다.&lt;/figcaption&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;개인적으로 SRE는 개발자와 시스템 엔지니어, 시스템 아키텍트를 거쳐 완성되는 최종 전직의 하나로 느껴진다.(끝판왕이 이런건가…) 그러다보니 자연스레 직무에 대한 기대 수준이 높아지고, ‘진짜 DevOps’는 채용 시장에서 항상 부족하다는 말이 필연적으로 나오는 것 같다. 
 데브옵스(DevOps)는 이미 우리가 익숙하게 느끼는 단어일 것이다. 언뜻 보면 SRE와 DevOps가 어떤 차이가 있는지 헷갈린다. 이에 대한 책 설명보다 직관적으로 알기 쉬운 설명이 있어서 가져와보았다.&lt;/p&gt;
 
-&lt;div align=&quot;center&quot;&gt;
-  &lt;div&gt;
-    &lt;p&gt;&lt;img src=&quot;/assets/images/class_sre_implements_devops.png&quot; alt=&quot;&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
-    &lt;figcaption&gt;출처: 조대협님 블로그(https://bcho.tistory.com/1325)&lt;/figcaption&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/class_sre_implements_devops.png&quot; alt=&quot;&quot; width=&quot;400&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+&lt;figcaption class=&quot;text-center&quot;&gt;출처: 조대협님 블로그(https://bcho.tistory.com/1325)&lt;/figcaption&gt;
 
 &lt;p&gt;&lt;br /&gt;
 정말 명쾌한 설명인 것 같다. Devops의 원리와 사상을 그대로 가져오되 SRE라는 구글만의 문화를 구현한 것이다. (DevOps의 개념에 대해서는 굳이 설명하지 않아도 될 것 같다.)&lt;/p&gt;
@@ -160,7 +142,7 @@ SRE 채용에 대한 구글의 접근법의 결과로 구글은 크게 두 부�
 
 &lt;p&gt;따라서 사용자들이 제품을 사용하면서 만족할 만한 가용성은 어느정도인지, 가용성에 불만이 있는 사용자들에게 어떤 대안을 제시할 것인지, 가용성 수준이 변함에 따라 사용자들이 제품을 활용하는 방식이 어떻게 달라질 것인지 판단하고 적정 수준의 가용성 목표치를 설정해야한다.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/llunarian/post/027a6b0b-a4bd-4764-a26b-507a23e443ef/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/availability_table.png&quot; alt=&quot;&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;위 표는 가용성에 따른 실제 다운타임 시간을 측정한 것이다. (출처: &lt;a href=&quot;https://en.wikipedia.org/wiki/High_availability&quot;&gt;위키피디아&lt;/a&gt;) 만약 목표가용성이 99.99%라면 나머지 0.01%가 바로 error budget이 된다. 표에서 99.99%를 찾아보면 error budget이 1년에 52.6 분임을 확인할 수 있다. 이러한 error budget은 새로운 기능을 더 빠르게 출시하는 경우 발생할 위험을 처리하는데 사용할 수 있다. error budget이 도입되면 SRE팀과 개발팀이 새로운 기능의 출시 속도를 극대화하기 위해 에러 예산을 적극 활용하게 된다. 만약 서비스에 장애가 발생하더라도 단순한 장애가 아니라 혁신 과정에서 발생하는 ‘예측 가능한’ 상황으로 인식하게 되면 혼란이 최소화되고 신속하고 적절한 대응을 할 가능성이 높아진다.&lt;/p&gt;
 
@@ -180,8 +162,9 @@ SRE 채용에 대한 구글의 접근법의 결과로 구글은 크게 두 부�
   &lt;p&gt;신뢰성이란 어떤 기능에 문제가 발생하기 전에 정상적으로 동작했던 평균 시간(Mean Time To Failure, MTTF)과 평균 수리 시간(Mean Time To Repair, MTTR)을 의미한다. 이 중 긴급 대응(emergency response)의 효율성을 가장 잘 표현하는 수치는 대응팀이 시스템을 정상적인 상태로 복구할 때까지 소요된 시간인 MTTR이다.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;더 쉽게 이해할 수 있도록 도표를 살펴보도록 하자. (출처: https://www.plutora.com/blog/failure-metrics-mttr-vs-mtbf-vs-mttf)
-&lt;img src=&quot;https://images.velog.io/images/llunarian/post/87f64b04-ce2e-4588-97b8-a945faf6328d/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;더 쉽게 이해할 수 있도록 도표를 살펴보도록 하자. (출처: &lt;a href=&quot;https://www.plutora.com/blog/failure-metrics-mttr-vs-mtbf-vs-mttf&quot;&gt;여기&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/mttr.png&quot; alt=&quot;&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;위에 설명된 MTTR과 MTTF 외에도 MTTD(Mean Time To Diagnose), MTBF(Mean Time Between Failure) 가 있다. MTTD은 장애 발생 후 이를 인지하고 진단하는데 걸리는 평균 시간, MTBF는 장애 발생 후 진단, 수리, 다음 장애 전까지의 시간의 합을 나타낸다.&lt;/p&gt;
 
@@ -309,11 +292,8 @@ SRE 채용에 대한 구글의 접근법의 결과로 구글은 크게 두 부�
 
 &lt;p&gt;즉 서비스가 SLO 기준을 초과하지만 않는다면 계속해서 빠르게 기능을 릴리즈할 수 있지만, 에러 예산이 고갈되어간다면 개발팀 스스로 배포 속도를 늦추거나 더 많은 테스트를 통해 위험을 회피하는 등의 기준이 될 수 있다는 것이다. (이 책에서는 SLO의 준수 여부에 따라 실제로 배포를 중단할 수 있는 권한을 SRE팀에게 부여하지만, 실제로는 그런 권한이 부여되지 않을 가능성이 크다.)&lt;/p&gt;
 
-&lt;p&gt;그러나 에러 예산은 SRE와 개발팀 사이의 장애와 관련된 불필요한 논쟁을 효과적으로 줄이고, 서로에게 악감정을 갖지 않고 결론을 내리는데 큰 도움이 될 것이다.&lt;/p&gt;</content><author><name>null_type</name></author><category term="Site Reliability Engineering" /><summary type="html">📌 이 시리즈는 ⟪사이트 신뢰성 엔지니어링⟫(벳시 베이어, 크리스 존스, 제니퍼 펫오프, 니얼 리처드 머피 지음, 제이펍, ISBN 979-11-88621-08-8) 의 내용을 개인적으로 학습하고 정리하기 위해 쓰여졌습니다. 따라서 해당 글을 인용 및 재배포하는 것에 대한 주의를 부탁드립니다.🚨</summary></entry><entry><title type="html">2020년 회고록</title><link href="https://llunarian.github.io/diary/2020%ED%9A%8C%EA%B3%A0%EB%A1%9D/" rel="alternate" type="text/html" title="2020년 회고록" /><published>2021-01-13T00:00:00+09:00</published><updated>2021-01-13T00:00:00+09:00</updated><id>https://llunarian.github.io/diary/2020%ED%9A%8C%EA%B3%A0%EB%A1%9D</id><content type="html" xml:base="https://llunarian.github.io/diary/2020%ED%9A%8C%EA%B3%A0%EB%A1%9D/">&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;/assets/images/freedom.png&quot; width=&quot;400px&quot; /&gt;
+&lt;p&gt;그러나 에러 예산은 SRE와 개발팀 사이의 장애와 관련된 불필요한 논쟁을 효과적으로 줄이고, 서로에게 악감정을 갖지 않고 결론을 내리는데 큰 도움이 될 것이다.&lt;/p&gt;</content><author><name>null_type</name></author><category term="Site Reliability Engineering" /><summary type="html">📌 이 시리즈는 ⟪사이트 신뢰성 엔지니어링⟫(벳시 베이어, 크리스 존스, 제니퍼 펫오프, 니얼 리처드 머피 지음, 제이펍, ISBN 979-11-88621-08-8) 의 내용을 개인적으로 학습하고 정리하기 위해 쓰여졌습니다. 따라서 해당 글을 인용 및 재배포하는 것에 대한 주의를 부탁드립니다.🚨</summary></entry><entry><title type="html">2020년 회고록</title><link href="https://llunarian.github.io/diary/diary-2020%ED%9A%8C%EA%B3%A0%EB%A1%9D/" rel="alternate" type="text/html" title="2020년 회고록" /><published>2021-01-13T00:00:00+09:00</published><updated>2021-01-13T00:00:00+09:00</updated><id>https://llunarian.github.io/diary/diary-2020%ED%9A%8C%EA%B3%A0%EB%A1%9D</id><content type="html" xml:base="https://llunarian.github.io/diary/diary-2020%ED%9A%8C%EA%B3%A0%EB%A1%9D/">&lt;p&gt;&lt;img src=&quot;/assets/images/freedom.png&quot; alt=&quot;freedom&quot; class=&quot;align-center&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
 &lt;center&gt;한줄 요약: 내가 이 짤을 올해 쓸 줄은 몰랐는데...🙊&lt;/center&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;삶이 단순해진다는 것은 많은 이점이 있다.

@@ -2,7 +2,7 @@ var store = [{
         "title": "2020년 회고록",
         "excerpt":"한줄 요약: 내가 이 짤을 올해 쓸 줄은 몰랐는데...🙊 삶이 단순해진다는 것은 많은 이점이 있다. 산만하고 복잡했던 생각도 단순해지고, 집중하고 싶은 것들에 집중할 수 있게 된다. 올해는 여러가지로 많이 단순해진 한 해였다고 생각한다. 회고 1: 왜 퇴사했나 19년에 공채로 처음 입사했던 회사. 10명이 넘는 동기들과 함께 각 부서에 배치되고, 처음엔...","categories": ["diary"],
         "tags": [],
-        "url": "https://llunarian.github.io/diary/2020%ED%9A%8C%EA%B3%A0%EB%A1%9D/",
+        "url": "https://llunarian.github.io/diary/diary-2020%ED%9A%8C%EA%B3%A0%EB%A1%9D/",
         "teaser": null
       },{
         "title": "1.시작하며",
