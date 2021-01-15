@@ -20,7 +20,7 @@ title                    : "null_type"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "null_type"
-description              : "devops 공부하는 블로그"
+description              : "Junior devops's blog"
 url                      : "https://llunarian.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "llunarian/llunarian.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -94,8 +94,8 @@ analytics:
 # Site Author
 author:
   name             : "null_type"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "멋진 devops가 되고 싶습니다."
+  avatar           : "/assets/images/penguin.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "도태되지 않기"
   location         : "Seoul, Korea"
   email            :
   links:

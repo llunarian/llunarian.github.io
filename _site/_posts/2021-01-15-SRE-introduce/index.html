@@ -1,0 +1,464 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="ko" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>2.소개 - null_type</title>
+<meta name="description" content="Junior devops’s blog">
+
+
+  <meta name="author" content="null_type">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:site_name" content="null_type">
+<meta property="og:title" content="2.소개">
+<meta property="og:url" content="https://llunarian.github.io/_posts/2021-01-15-SRE-introduce/">
+
+
+  <meta property="og:description" content="Junior devops’s blog">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://llunarian.github.io/_posts/2021-01-15-SRE-introduce/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "null_type",
+      "url": "https://llunarian.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="null_type Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          null_type
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/_pages/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/_posts/">Posts</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">토글 메뉴</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="2.소개">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">2.소개
+</h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <blockquote>
+  <p>📌 이 시리즈는 ⟪사이트 신뢰성 엔지니어링⟫(벳시 베이어, 크리스 존스, 제니퍼 펫오프, 니얼 리처드 머피 지음, 제이펍, ISBN 979-11-88621-08-8) 의 내용을 개인적으로 학습하고 정리하기 위해 쓰여졌습니다. 따라서 해당 글을 인용 및 재배포하는 것에 대한 주의를 부탁드립니다.🚨</p>
+</blockquote>
+
+<blockquote>
+  <p>SRE에 대해 더 알고싶으시다면 <a href="https://sre.google/">여기</a> 를 참고하세요!</p>
+</blockquote>
+
+<p><br />
+<br /></p>
+<div align="center">
+  <div>
+    <p><img src="/assets/images/ben_treynor_sloss.png" alt="" width="400" /></p>
+    <figcaption>구글 기술 운영 감독 부사장이자 SRE라는 용어를 만든 Ben Treynor Sloss. 구글링해보면 슈퍼카 수집이 취미이신듯... ㄷㄷ</figcaption>
+  </div>
+</div>
+
+<p><br />
+1장은 벤 부사장이 SRE의 의미와 업무 방식에 대한 자신의 생각을 소개하는 글이다. 이글을 통해서 SRE가 무엇을 하는지, 어떤 ??을 중요하게 생각하는지 정확히 파악할 수 있다.</p>
+
+<p><br />
+<br /></p>
+
+<h3 id="일반적인-시스템-관리자의-역할">일반적인 시스템 관리자의 역할</h3>
+
+<div align="center">
+  <div>
+    <p><img src="/assets/images/dev_vs_ops.png" alt="" width="400" /></p>
+    <figcaption>너어는 진짜 나쁜 아이구나</figcaption>
+  </div>
+</div>
+
+<p><br /></p>
+
+<p>기존의 시스템 관리자의 역할은 개발자와는 완전히 다른 것이었다. 서비스 배포 및 운영시 발생하는 이벤트와 업데이트에 대응하는 것이 시스템관리자의 주요 역할이었고, 시스템의 복잡도와 스케일이 커질수록 시스템 관리팀의 규모도 커지게 된다. 이는 곧 인력 충원에 따른 직접 비용(direct costs)의 증가로 이어진다. 또한 개발팀과 운영팀을 독립적으로 나누게 되면 의사소통과 요구사항에서 차이가 발생하게 되고, 결국 상호간의 신뢰와 존중에 영향을 주게 된다. 기본적으로 개발팀은 새로운 기능 구현과 업데이트를 빠르게 배포하고 싶어하는 반면, 운영팀은 서비스를 좀 더 안정적으로 운영하고 싶어한다. 이러한 입장의 차이는 양 쪽 집단 모두에게 피로감을 선사하며 어떤 경우엔 서비스 배포 일정 자체에 문제를 일으키기도 한다.</p>
+
+<p><br />
+<br /></p>
+
+<h3 id="구글의-해법-사이트-신뢰성-엔지니어링">구글의 해법: 사이트 신뢰성 엔지니어링</h3>
+
+<blockquote>
+  <p>간단하게 설명하면, SRE란 운영팀을 위한 소프트웨어 엔지니어를 말한다.
+⋯
+SRE 채용에 대한 구글의 접근법의 결과로 구글은 크게 두 부류의 사람들로 구성된 팀을 완성하게 되었다. 첫 번째 부류는 어떤 작업을 직접 손으로 수행하는 것을 금세 싫증 내는 부류며, 두 번째 부류는 비록 그 해결책이 복잡한 경우라 하더라도 이전까지 사람이 손으로 하던 작업을 대신할 수 있는 소프트웨어를 작성하는 데 필요한 기술을 갖춘 부류다.
+⋯
+그래서 SRE팀은 기본적으로 기존의 운영팀이 수행하던 업무를 수행한다. 다만 소프트웨어에 전문성을 지닌 엔지니어들과 이들이 선천적으로 가지고 있는, 인간의 노동력을 대체할 자동화된 소프트웨어를 설계하고 구현하려는 성향과 능력을 활용한다는 차이점이 있다.</p>
+</blockquote>
+
+<p>기본적으로 운영팀이 수행하던 업무를 SRE가 수행하는 것, 기존의 system administrator 들이 나아가야할 방향을 구글이 오랜 기간 SRE를 검증하며 보여준 것이라 생각한다. 나의 경우 클라우드 SA로 커리어를 시작했기 때문에 현재는 부족한 소프트웨어 설계 및 구현 능력을 기르는 것이 필요하다. 실제로 SRE중 절반 이상이 기존의 소프트웨어 엔지니어 베이스를 가지고 있다고 한다.</p>
+
+<p>SRE가 가진 강점이 바로 코드를 작성할 수 있는 능력이다. 전통적인 운영팀이 늘어나는 트래픽에 대비해 인력을 계속 채용하는 방식에서 벗어나, 서비스에 문제가 발생할 때 자동적으로 대처하며 스스로 복구가 가능한 수준까지 올려 놓는 것이다. 실제로 구글은 SRE이 팀에 티켓, 전화 응대, 수작업 등 소위 <strong>‘운영’업무에 최대 50%의 시간만 투입</strong>하도록 정해두고 있다. 나머지 <strong>50%는 오로지 개발을 위해 활용</strong>하는 것이 규칙이다. 이렇게 함으로써 SRE가 서비스 운영을 통해 새로운 경험을 축적하면서도 서비스 엔지니어링에도 참여할 수 있는 발판을 마련한 것이다.</p>
+
+<blockquote>
+  <p>SRE들은 모두 구글의 시스템들을 운영하기 위해 자신들의 필요에 따라 직접 코드를 수정하므로 SRE팀은 빠르게 혁신하고 변화를 폭넓게 수용하는 특징을 보인다. 이런 팀은 상대적으로 많은 수의 인력이 필요한 운영 중심의 팀에 비해 상대적으로 저렴한 비용으로 같은 서비스를 지원할 수 있다.
+⋯
+이러한 장점과 더불어 SRE 모델은 독특한 도전과제가 즐비하다는 특징도 있다. 구글이 지속적으로 당면한 도전과제 중 하나는 SRE의 채용이다. SRE 후보자가 제품 개발자 채용 과정을 통해 다른 엔지니어들과 경쟁해야 한다는 점과 더불어 SRE에 대한 채용 기준이 코딩 및 시스템 엔지니어링 기술 전반에 걸쳐 너무 높게 형성되어 있었다. 하지만 그에 상응하는 인력 수가 많지 않다는 것이 문제였다.</p>
+</blockquote>
+
+<div align="center">
+  <div>
+    <p><img src="/assets/images/mountain.png" alt="" width="400" /></p>
+    <figcaption>개발과 시스템 운영을 동시에...! 산 넘어 산이다.</figcaption>
+  </div>
+</div>
+
+<p><br /></p>
+
+<p>개인적으로 SRE는 개발자와 시스템 엔지니어, 시스템 아키텍트를 거쳐 완성되는 최종 전직의 하나로 느껴진다.(끝판왕이 이런건가…) 그러다보니 자연스레 직무에 대한 기대 수준이 높아지고, ‘진짜 DevOps’는 채용 시장에서 항상 부족하다는 말이 필연적으로 나오는 것 같다. 
+데브옵스(DevOps)는 이미 우리가 익숙하게 느끼는 단어일 것이다. 언뜻 보면 SRE와 DevOps가 어떤 차이가 있는지 헷갈린다. 이에 대한 책 설명보다 직관적으로 알기 쉬운 설명이 있어서 가져와보았다.</p>
+
+<div align="center">
+  <div>
+    <p><img src="/assets/images/class_sre_implements_devops.png" alt="" width="400" /></p>
+    <figcaption>출처: 조대협님 블로그(https://bcho.tistory.com/1325)</figcaption>
+  </div>
+</div>
+
+<p><br />
+정말 명쾌한 설명인 것 같다. Devops의 원리와 사상을 그대로 가져오되 SRE라는 구글만의 문화를 구현한 것이다. (DevOps의 개념에 대해서는 굳이 설명하지 않아도 될 것 같다.)</p>
+
+<h3 id="sre의-신조">SRE의 신조</h3>
+
+<blockquote>
+  <p>SRE팀은 가용성(availability), 응답 시간(latency), 성능(performance), 효율성(efficiency), 변경 관리(change management), 모니터링(monitoring), 위기 대응(emergency response), 그리고 서비스의 수용량 계획(capacity planning)에 대한 책임을 진다.</p>
+</blockquote>
+
+<p>이에 대한 부연 설명은 아래와 같다.</p>
+
+<h4 id="포스트모텀postmortem">포스트모텀(postmortem)</h4>
+<blockquote>
+  <p>포스트모텀은 해당 장애에 대한 조사를 통해 발생한 현상에 대한 상세한 내용과 발견된 모든 원인, 그리고 그 문제를 해결하거나 개선하기 위해 취했던 행동, 마지막으로 같은 문제가 다시 발생했을 때의 대응 방안 등을 도출해야 한다. 구글의 포스트모텀 문화는 <strong>특정인을 비난하기보다는 실수를 공유함으로써 엔지니어가 자신의 단점을 피하거나 숨기려 하지 않고 스스로 고쳐나갈 수 있도록 유도하는 문화</strong>로 이미 정착되어 있다.</p>
+</blockquote>
+
+<p>앞에서 설명했듯이 구글은 SRE의 업무시간 중 최대 50%는 운영업무로, 나머지는 코딩을 통한 프로젝트 업무를 수행하도록 하고 있다. 운영 업무 중에는 보통 최대 두 건의 업무만을 담당하게 하는데, 이렇게 하는 목적이 바로 SRE가 운영 업무에 집중할 때 포스트모텀(postmortem)을 작성하는 것이다. 업무를 처리한 후 포스트모텀을 작성하는데 충분한 시간을 주어야 문제점을 관찰하고 이를 통해 새로운 경험을 쌓을 수 있다는 것이다. 
+모든 심각한 장애에 대해서는 알림 여부를 떠나서 반드시 포스트모텀을 작성하게 되어 있는 것은 어찌 보면 당연한 말일 수도 있다. 특히 알림이 오지 않은 장애는 모니터링 되지 않던 부분에 대한 감시 영역을 넓힐 수 있는 기회이기도 하기 때문에 더 좋은 사례라고 생각한다.</p>
+
+<h4 id="가용성availability">가용성(availability)</h4>
+<p>SRE만의 독특한 가용성 개념이 있는데 바로 error budget(에러 예산)이다. 개발팀과 SRE팀은 제품 혁신의 속도와 안정성 사이에서 충돌하게 되는데, 이런 충돌을 수면 위로 드러내고 해결하기 위해 도입한 것이다.</p>
+
+<blockquote>
+  <p>error budget은 기본적으로 모든 것에 대해 신뢰성 목표를 100%로 설정하는 것은 잘못된 목표 설정이라는 관찰 결과에서 유래한 것이다. 통상 어떤 소프트웨어 서비스 혹은 시스템이든 간에 신뢰성 100%라는 목표는 올바르지 않다.</p>
+</blockquote>
+
+<p>신뢰성 100% 목표가 올바르지 않은 이유는 바로 그것이 불가능한 목표 설정이기 때문이다. 서비스 자체의 가용성이 이외에 사용자와 서비스 간의 다양한 변수들(사용자들의 로컬 환경, 와이파이, ISP, 전력 공급 등)로 인해 1년 내내 100%를 유지하는것은 사실상 불가능하다. 즉 서비스 가용성을 99.999%에서 100%에 맞추기 위해 시간과 자원을 아무리 많이 쏟아붓는다 하더라도, 사용자는 위의 변수들 때문에 개발팀과 SRE팀이 들인 노력의 효과를 전혀 누리지 못한다는 것이다. (신뢰성에 대한 정의는 아래 긴급대응에서 서술되어 있다.)</p>
+
+<p>따라서 사용자들이 제품을 사용하면서 만족할 만한 가용성은 어느정도인지, 가용성에 불만이 있는 사용자들에게 어떤 대안을 제시할 것인지, 가용성 수준이 변함에 따라 사용자들이 제품을 활용하는 방식이 어떻게 달라질 것인지 판단하고 적정 수준의 가용성 목표치를 설정해야한다.</p>
+
+<p><img src="https://images.velog.io/images/llunarian/post/027a6b0b-a4bd-4764-a26b-507a23e443ef/image.png" alt="" /></p>
+
+<p>위 표는 가용성에 따른 실제 다운타임 시간을 측정한 것이다. (출처: <a href="https://en.wikipedia.org/wiki/High_availability">위키피디아</a>) 만약 목표가용성이 99.99%라면 나머지 0.01%가 바로 error budget이 된다. 표에서 99.99%를 찾아보면 error budget이 1년에 52.6 분임을 확인할 수 있다. 이러한 error budget은 새로운 기능을 더 빠르게 출시하는 경우 발생할 위험을 처리하는데 사용할 수 있다. error budget이 도입되면 SRE팀과 개발팀이 새로운 기능의 출시 속도를 극대화하기 위해 에러 예산을 적극 활용하게 된다. 만약 서비스에 장애가 발생하더라도 단순한 장애가 아니라 혁신 과정에서 발생하는 ‘예측 가능한’ 상황으로 인식하게 되면 혼란이 최소화되고 신속하고 적절한 대응을 할 가능성이 높아진다.</p>
+
+<h4 id="모니터링monitoring">모니터링(monitoring)</h4>
+<blockquote>
+  <p>모니터링은 최우선 수단 중 하나로, 서비스의 소유자가 계속해서 시스템의 상태와 가용성을 점검하는 것을 말한다.
+⋯
+모니터링은 어느 분야를 막론하고 사람이 관여해서는 안된다. 장애에 관한 판단은 소프트웨어가 대신하고 반드시 어떤 대응이 필요한 경우에만 사람에게 알림이 도착해야 한다.</p>
+</blockquote>
+
+<p>이 책에서는 모니터링의 결과를 중요도 순으로 3가지로 구분한다. 알람(alarms), 티켓(tickets), 로깅(logging)이 그것이다.
+알람은 사람이 즉시 대응해야할 문제가 발생하거나 발생위험이 존재할 때, 티켓은 사람의 대응이 필요하지만 시간적으로 여유가 있을 때, 로깅은 반드시 확인할 필요는 없으나 추후 분석 또는 조사를 위해 기록되어야 하는 정보가 있을 때를 말한다.
+즉 SRE의 목표는 소프트웨어(모니터링 툴 등)를 이용하여 자동으로 메트릭을 판단하고 사람이 처리해야 할 문제들만 확인 가능하도록 시스템을 구축하는 것이라고 할 수 있다.</p>
+
+<h4 id="위기-대응-emergency-response">위기 대응 (emergency response)</h4>
+<blockquote>
+  <p>신뢰성이란 어떤 기능에 문제가 발생하기 전에 정상적으로 동작했던 평균 시간(Mean Time To Failure, MTTF)과 평균 수리 시간(Mean Time To Repair, MTTR)을 의미한다. 이 중 긴급 대응(emergency response)의 효율성을 가장 잘 표현하는 수치는 대응팀이 시스템을 정상적인 상태로 복구할 때까지 소요된 시간인 MTTR이다.</p>
+</blockquote>
+
+<p>더 쉽게 이해할 수 있도록 도표를 살펴보도록 하자. (출처: https://www.plutora.com/blog/failure-metrics-mttr-vs-mtbf-vs-mttf)
+<img src="https://images.velog.io/images/llunarian/post/87f64b04-ce2e-4588-97b8-a945faf6328d/image.png" alt="" /></p>
+
+<p>위에 설명된 MTTR과 MTTF 외에도 MTTD(Mean Time To Diagnose), MTBF(Mean Time Between Failure) 가 있다. MTTD은 장애 발생 후 이를 인지하고 진단하는데 걸리는 평균 시간, MTBF는 장애 발생 후 진단, 수리, 다음 장애 전까지의 시간의 합을 나타낸다.</p>
+
+<p>이와 비슷한 개념으로 재해복구(Disaster Recovery)에서 사용되는 용어인 RTO(Recovery Time Object)와 RPO(Recovery Point Object)도 있는데, RTO는 복구시 소요되는 목표 시간을 나타내므로 MTTD+MTTR과 동일한 범위를 나타내지만, RPO는 데이터 유실 시점에 관한 것으로 위의 4가지 지표와는 다른 성격을 가진다.</p>
+
+<blockquote>
+  <p>사람이 개입하면 시간이 지연된다. 비록 실질적인 장애가 더 많이 발생하는 한이 있더라도, 사람의 개입을 필요로 하지 않는 시스템은 사람의 개입이 필요한 시스템보다 더 높은 가용성을 제공할 수 있다.</p>
+</blockquote>
+
+<p>즉 모니터링을 통해 사람이 직접 처리해야할 알림을 제외하고, 시스템이 자동으로 장애 대응이 가능한 체계를 마련하는 것이 SRE의 역할 중 하나라고 할 수 있을 것이다. 만약 사람의 개입이 필요한 경우라도, 능력이 출중한 엔지니어가 독립적으로 판단하여 대응하는 것보다는 가이드라인을 바탕으로 잘 훈련된 엔지니어가 장애 대응에 더 적합하다고 볼 수 있다. 그래서 구글 SRE팀은 장애 대응 지침과 더불어 엔지니어들이 장애 상황에 대응할 수 있도록 지속적인 훈련을 실시한다.</p>
+
+<h4 id="변경-관리change-management">변경 관리(change management)</h4>
+<p>SRE는 변경 관리 중에 발생하는 장애를 자동화를 통해 극복하려고 한다. 자동화를 하면 반복 작업이나 휴먼 에러를 피할 수 있고, 릴리즈 속도와 안정성이 동시에 확보된다. 여기서 자동화는 구체적으로 ‘제품을 단계적으로 출시’하고, ‘원인을 빠르고 정확하게 파악’하고, ‘문제 발생시 안전하게 롤백’하는 것을 의미한다.</p>
+
+<h4 id="수요-예측과-수용-계획capacity-planning">수요 예측과 수용 계획(capacity planning)</h4>
+<blockquote>
+  <p>수요 예측과 수용 계획은 미래의 수요를 대비하고 필요한 가용성을 제공할 수 있는 충분한 수용력과 여력을 확보하기 위한 것이다.
+⋯
+수용 계획은 (사용자가 제품을 채택하고 활용하면서 생겨나는) 자연적 성장과 (새로운 기능의 출시, 마케팅 또는 사업부가 주도하는 다른 변화들의 결과로 생겨나는) 인위적 성장을 모두 고려해야 한다.</p>
+</blockquote>
+
+<p>수요 예측을 정확하게 예측하는 방법이나, 수용력 측정을 위한 부하 테스트 방법에 대해서는 책에 언급되어 있지는 않다. 이 부분은 추가로 조사해볼 필요가 있겠다.</p>
+
+<h4 id="프로비저닝provisioning">프로비저닝(provisioning)</h4>
+<p>기존에 알고 있는 프로비저닝의 의미는 인스턴스를 생성하거나, 서비스에 필요한 리소스를 미리 준비하는 것이었다. 그러나 생각해보면 기존의 시스템에 변경이 발생하거나 새로운 서비스를 개설하는 것은 비용 및 안정성에 굉장히 민감한 작업이다. 따라서 프로비저닝은 꼭 필요한 시점에 적절한 사이즈로 수행되어야 하고, 수행 이후에는 정상적으로 동작하는지 꼭 확인하여야 한다.</p>
+
+<h4 id="효율성efficiency과-성능performance">효율성(efficiency)과 성능(performance)</h4>
+<blockquote>
+  <p>SRE와 제품 개발자는 서비스를 계속해서 모니터링하고 성능을 개선해서 수용력을 확보하고 효율성을 향상시켜야 한다.</p>
+</blockquote>
+
+<p>쉽게 말하자면 가장 적은 비용과 노력으로 최대한의 성능을 내는 것이 SRE의 의무이다. 여기서 효율성이란 수요(부하)를 예측하여 수용력을 결정할 때 얼마나 최적의 프로비저닝을 수행하는지에 따라 달렸다. SRE는 시스템의 부하 증가에 따른 서비스의 속도 저하를 방지하고 목표 응답 속도를 확보하기 위해서 지속적으로 수용력을 확보하고 성능을 보장해야 한다.
+<br /></p>
+
+<h3 id="정리">정리</h3>
+<p>지금까지 SRE의 의미와 그 역할에 대해 살펴보았다. 특히 SRE의 역할은 총 8가지로 요약되므로 다시 한번 정리해서 숙지하는 도움이 될 것이다. 실제로 DevOps 또는 SRE가 어떤 일을 하는지 정확히 알지 못하는 개발자도 적지 않은 것 같다. 본인이 DevOps나 SRE를 목표로 하고 있다면 이번 시리즈가 조금나마나 도움이 되는 글이었기를 바란다.
+다음 글은 SRE가 마주하는 위험요소를 어떻게 수용하고 관리하는지 알아보는 내용이 될 것 같다.?</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="검색어를 입력하세요..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>팔로우:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> 피드</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 null_type. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '65faa1ee2f612bd9a';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+
+
+
+  </body>
+</html>
