@@ -5,15 +5,21 @@ var store = [{
         "url": "https://llunarian.github.io/diary/2020%ED%9A%8C%EA%B3%A0%EB%A1%9D/",
         "teaser": null
       },{
-        "title": "2.소개",
-        "excerpt":"📌 이 시리즈는 ⟪사이트 신뢰성 엔지니어링⟫(벳시 베이어, 크리스 존스, 제니퍼 펫오프, 니얼 리처드 머피 지음, 제이펍, ISBN 979-11-88621-08-8) 의 내용을 개인적으로 학습하고 정리하기 위해 쓰여졌습니다. 따라서 해당 글을 인용 및 재배포하는 것에 대한 주의를 부탁드립니다.🚨 SRE에 대해 더 알고싶으시다면 여기 를 참고하세요! 구글 기술 운영 감독 부사장이자 SRE라는 용어를 만든...","categories": ["Site Reliability Engineering"],
-        "tags": [],
-        "url": "https://llunarian.github.io/site%20reliability%20engineering/SRE-introduce/",
-        "teaser": null
-      },{
         "title": "1.시작하며",
         "excerpt":"📌 이 시리즈는 ⟪사이트 신뢰성 엔지니어링⟫(벳시 베이어, 크리스 존스, 제니퍼 펫오프, 니얼 리처드 머피 지음, 제이펍, ISBN 979-11-88621-08-8) 의 내용을 개인적으로 학습하고 정리하기 위해 쓰여졌습니다. 따라서 해당 글을 인용 및 재배포하는 것에 대한 주의를 부탁드립니다.🚨 SRE에 대해 더 알고싶으시다면 여기 를 참고 하세요! 처음 500페이지가 훌쩍 넘는 이 책을 받아들었을...","categories": ["Site Reliability Engineering"],
         "tags": [],
-        "url": "https://llunarian.github.io/site%20reliability%20engineering/SRE-%EC%8B%9C%EC%9E%91%ED%95%98%EB%A9%B0/",
+        "url": "https://llunarian.github.io/site%20reliability%20engineering/SRE-1.%EC%8B%9C%EC%9E%91%ED%95%98%EB%A9%B0/",
+        "teaser": null
+      },{
+        "title": "2.소개",
+        "excerpt":"📌 이 시리즈는 ⟪사이트 신뢰성 엔지니어링⟫(벳시 베이어, 크리스 존스, 제니퍼 펫오프, 니얼 리처드 머피 지음, 제이펍, ISBN 979-11-88621-08-8) 의 내용을 개인적으로 학습하고 정리하기 위해 쓰여졌습니다. 따라서 해당 글을 인용 및 재배포하는 것에 대한 주의를 부탁드립니다.🚨 SRE에 대해 더 알고싶으시다면 여기 를 참고하세요! 구글 기술 운영 감독 부사장이자 SRE라는 용어를 만든...","categories": ["Site Reliability Engineering"],
+        "tags": [],
+        "url": "https://llunarian.github.io/site%20reliability%20engineering/SRE-2.%EC%86%8C%EA%B0%9C/",
+        "teaser": null
+      },{
+        "title": "3.위험 요소 수용하기",
+        "excerpt":"📌 이 시리즈는 ⟪사이트 신뢰성 엔지니어링⟫(벳시 베이어, 크리스 존스, 제니퍼 펫오프, 니얼 리처드 머피 지음, 제이펍, ISBN 979-11-88621-08-8) 의 내용을 개인적으로 학습하고 정리하기 위해 쓰여졌습니다. 따라서 해당 글을 인용 및 재배포하는 것에 대한 주의를 부탁드립니다.🚨 SRE에 대해 더 알고싶으시다면 여기 를 참고하세요! 이전 글에서 언급했듯이 신뢰성은 100%가 되기 매우매우 어렵고,...","categories": ["Site Reliability Engineering"],
+        "tags": [],
+        "url": "https://llunarian.github.io/site%20reliability%20engineering/SRE-3.%EC%9C%84%ED%97%98%EC%9A%94%EC%86%8C%EC%88%98%EC%9A%A9%ED%95%98%EA%B8%B0/",
         "teaser": null
       }]
